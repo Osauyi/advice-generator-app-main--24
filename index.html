@@ -11,7 +11,15 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Advice generator app</title>
 
@@ -28,14 +36,12 @@
   </head>
   <body>
     <main>
-      <form action="/" method="post">
-        <h1 name="game">Advice #<!-- Advice ID goes here --></h1>
-        <p>"<!-- Advice text goes here -->"</p>
-        <div class="divder"></div>
-        <button type="submit">
-          <img src="images/icon-dice.svg" alt="dice img" />
-        </button>
-      </form>
+      <h1 name="adviceId">Advice #<!-- Advice ID goes here --></h1>
+      <p>"<!-- Advice text goes here -->"</p>
+      <div class="divder"></div>
+      <button>
+        <img src="images/icon-dice.svg" alt="dice img" />
+      </button>
     </main>
     <footer>
       <div class="attribution">
